@@ -18,6 +18,7 @@ gem 'puma', '~> 3.7'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
+gem 'faker', '~> 1.6.1'
 
 
 # Use Capistrano for deployment
@@ -44,7 +45,6 @@ end
 group :test do
   gem 'shoulda-matchers', '~> 3.0', require: false
   gem 'database_cleaner', '~> 1.5'
-  gem 'faker', '~> 1.6.1'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
